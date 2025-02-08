@@ -1,0 +1,135 @@
+body{
+    background-color: skyblue;
+} 
+ h1{
+    text-align: center;
+ } 
+ 
+.box{ 
+    height: auto;
+    width: 70%; 
+    border: 2px solid black; 
+    border-radius: 10px; 
+    justify-self: center;
+} 
+#question{
+    text-align: center; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+} 
+span{
+    color:crimson;
+}  
+
+.options{
+    display: flex; 
+    justify-content: center;
+ margin-top: 200px; 
+ justify-content: space-evenly;
+}
+button{
+    height: 50px;
+    width: 20%
+} 
+#next{ 
+    display: flex;
+    background-color: rgb(8, 216, 8); 
+    border-radius: 13px; 
+    justify-self: center; 
+    margin-top: 40px; 
+    justify-content: center; 
+    align-items: center;   
+} 
+#next:hover{
+    border: 3px solid black;
+} 
+
+#op1{
+    height: auto; 
+    
+} 
+#op2{
+     height: auto; 
+     
+
+} 
+#op3{
+    height: auto; 
+    
+} 
+#op4{
+    height: auto; 
+    
+}
+#op1.clicked{
+    background-color:  #3e8e41;
+    transform: scale(0.95);
+}  
+
+#op1.wrong{
+    background-color: red;
+    transform: scale(0.95) ;
+}
+
+#op2.clicked1{
+    background-color: #3e8e41;
+    transform: scale(0.95);
+} 
+#op2.wrong1{
+    background-color: red; 
+    transform: scale(0.95);
+}
+
+
+#op3.clicked2{
+    background-color: #3e8e41;
+    transform: scale(0.95);
+}
+#op3.wrong2{
+    background-color: red;
+    transform: scale(0.95);
+}
+
+#op4.clicked3{
+    background-color: #3e8e41;
+    transform: scale(0.95);
+}
+
+#op4.wrong3{
+    background-color: red;
+    transform: scale(0.95);
+} 
+
+#op1:hover{
+     box-shadow: 5px 5px 5px blue;
+} 
+
+#op2:hover{
+    box-shadow: 5px 5px 5px blue;
+}  
+
+#op3:hover{
+    box-shadow: 5px 5px 5px blue;
+} 
+
+#op4:hover{
+    box-shadow: 5px 5px 5px blue;
+} 
+
+.score{
+    height: auto;
+    width: 300px;
+    border: 2px solid black; 
+    justify-self: center; 
+    margin-top: 100px; 
+    justify-content: center;
+}  
+
+#text{
+   text-align: center; 
+   font-size: x-large;
+}
+
+#para{
+    text-align: center;
+}
